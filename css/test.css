@@ -1,0 +1,31 @@
+.checkbox-input {
+  appearance: none;
+}
+.checkbox-label {
+  position: relative;
+  padding-left: 28px;
+}
+.checkbox-label::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 15px;
+  border: 1px solid var(--color-title);
+  border-radius: 2px;
+  content: '';
+}
+.checkbox-label::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 15px;
+  border: 1px solid var(--color-title);
+  background-image: url(../images/Vector\ \(3\).svg);
+  border-radius: 2px;
+  content: '';
+}
+.checkbox-input:checked + .checkbox-label {
+
+}
