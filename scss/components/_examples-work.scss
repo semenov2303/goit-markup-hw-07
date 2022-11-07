@@ -1,0 +1,34 @@
+.examples-work {
+  padding-top: 0px;
+}
+.examples-work-title {
+  text-align: center;
+  margin-bottom: 50px;
+  line-height: 1.17;
+  font-size: 36px;
+  font-weight: 700;
+}
+.examples-work-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.examples-work-list {
+  position: relative;
+}
+.label {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(47, 48, 58, 0.8);
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.label p {
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color-white);
+}

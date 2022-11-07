@@ -1,0 +1,28 @@
+
+.net-link {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius  : 50%;
+  transition:  background-color 250ms var(--timing-function);
+}
+.social-net {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.net-icon {
+  fill: #AFB1B8;
+  transition: fill 250ms var(--timing-function);
+}
+.net-link:hover > .net-icon,
+.net-link:focus > .net-icon {
+  fill: var(--color-white) ;
+}
+.net-link:hover,
+.net-link:focus {
+  background-color: var(--color-accent);
+}
