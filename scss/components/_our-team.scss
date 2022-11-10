@@ -1,18 +1,18 @@
 .our-team {
   background-color: #F5F4FA;
 }
-.our-team-container {
+.our-team__container {
   display: flex;
   gap: 30px;
   text-align: center;
 }
-.team-card {
+.our-team__card {
   background-color: #fff;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14);
   border-radius: 0px 0px 4px 4px;
   width: 270px;
 }
-.our-team-title {
+.our-team__title {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.17;
@@ -26,7 +26,7 @@
   margin-bottom: 10px;
   line-height: 1.19;
 }
-.team-card p {
+.our-team__card p {
   line-height: 1.19;
   font-weight: 400;
   font-size: 16px;

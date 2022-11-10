@@ -1,15 +1,15 @@
 .benefits {
-  padding-bottom: 94px;
+  justify-content: center;
 }
-.benefits-list {
+.benefits__list {
   display: flex;
   align-items: flex-start;
   gap: 30px;
 }
-.benefits-list-item {
+.benefits__list-item {
   gap: 30px;
 }
-.benefits-group {
+.benefits__group {
   background-color: #F5F4FA;
   width: 270px;
   height: 120px;
@@ -19,7 +19,7 @@
   align-items: center;
   margin-bottom: 30px;
 }
-.benefits-icon {
+.benefits__icon {
   width: 70px;
   height: 70px;
 }

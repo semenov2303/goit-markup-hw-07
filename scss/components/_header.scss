@@ -5,27 +5,27 @@ header {
   display: flex;
   align-items: center;
 }
-.main-nav {
+.header__nav {
   display: flex;
   align-items: center;
   flex-grow: 1;
   gap: 93px; 
 }
-.main-link {
+.header__menu {
   display: flex;
   gap: 50px;
 }
-.main-link + .communication-menu {
+.header__menu + .communication__menu {
   margin-left: auto;
 }
-.communication-menu {
+.communication__menu {
   display: flex;
   gap: 50px;
 }
-.communication-flex img{
+.communication__item img{
   margin-right: 10px;
 }
-.logo {
+.header__logo {
   font-family: 'releway', sans-serif;
   text-decoration: none;
   font-size: 26px;
@@ -35,7 +35,7 @@ header {
 .part-web {color: var(--color-accent);}
 .part-studio {color: #000000;
 }
-.link {
+.header__link {
   padding: 32px 0;
   display: block;
   color: var(--color-title);
@@ -46,7 +46,7 @@ header {
   position: relative;
   transition: color 250ms var(--timing-function);
 }
-.link::after{
+.header__link::after{
   content: '';
   position: absolute;
   left: 0;
@@ -59,19 +59,18 @@ header {
   opacity: 0;
   transition: opacity 250ms var(--timing-function);
 }
-.link.current::after{
+.header__link.current::after{
   opacity: 1;
 }
-.main-link .link.current {
+.header__menu .header__link.current {
   color: var(--color-accent);
 }
-.link:hover,
-.link:focus{
+.header__link:hover,
+.header__link:focus{
   color: var(--color-accent);
 }
-.communication-link {
+.communication__link {
   padding: 32px 0;
-  display: block;
   color: #757575;
   text-decoration: none;
   font-weight: 500;
@@ -80,11 +79,11 @@ header {
   align-items: center;
   transition: color 250ms var(--timing-function);
 }
-.communication-icon {
+.communication__icon {
   margin-right: 10px;
   fill: currentColor;
 }
-.communication-link:hover,
-.communication-link:focus{
+.communication__link:hover,
+.communication__link:focus{
   color: var(--color-accent);
 }
