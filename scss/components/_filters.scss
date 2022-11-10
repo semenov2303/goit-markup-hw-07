@@ -1,13 +1,13 @@
-.filter-portfolio {
+.filter__portfolio {
   display: none;
 } 
-.filter-list {
+.filter__list {
   display: flex;
   justify-content: center;
   gap: 8px;
   margin-bottom: 50px;
 }
-.filters {
+.filter_item {
   font-size: 16px;
   font-weight: 500;
   color: var(--color-title);
@@ -19,7 +19,7 @@
   line-height: 1.62;
   transition: color 250ms var(--timing-function), background-color 250ms var(--timing-function), box-shadow 250ms var(--timing-function);
 }
-.filters:hover {
+.filter_item:hover {
   color: var(--color-white);
   background-color:var(--color-accent);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);    
