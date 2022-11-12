@@ -15,10 +15,10 @@ header {
   display: flex;
   gap: 50px;
 }
-.header__menu + .communication__menu {
+.header__menu + .communication {
   margin-left: auto;
 }
-.communication__menu {
+.communication {
   display: flex;
   gap: 50px;
 }

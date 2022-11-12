@@ -6,7 +6,7 @@
   text-transform: uppercase;
   margin-bottom: 20px;
 }
-.subscription__net {
+.subscription {
   max-width: 206px;
   height: 80px;
   margin-top: 12px;
@@ -44,9 +44,9 @@
   font-size: 16px;
   line-height: 1.87;
   cursor: pointer;
-  text-align: start;
+  text-align: center;
   border: 0;
-  padding-left: 28px;
+  padding: 0 28px;
   word-spacing: 10px;
 }
 .subscrib-form__title {
